@@ -27,9 +27,6 @@ public class DB2CfEnvProcessor implements CfEnvProcessor {
 
     @Override
     public void process(CfCredentials cfCredentials, Map<String, Object> properties) {
-        System.out.println("getUri: " + cfCredentials.getUri("http"));
-        System.out.println("getUsername: " + cfCredentials.getUri("http"));
-        System.out.println("getPassword: " + cfCredentials.getPassword());
         properties.put("spring.datasource.url", cfCredentials.getUri("http"));
         properties.put("spring.datasource.username", cfCredentials.getUsername());
         properties.put("spring.datasource.password", cfCredentials.getPassword());
