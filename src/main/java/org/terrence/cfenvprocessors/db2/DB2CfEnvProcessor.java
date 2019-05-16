@@ -1,4 +1,4 @@
-package org.terrence.testapp.envprocessor;
+package org.terrence.cfenvprocessors.db2;
 
 import java.util.Map;
 
