@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.terrence</groupId>
-	<artifactId>db2-cfenv-processor</artifactId>
+	<artifactId>cfenv-processor-db2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>db2-cfenv-processor</name>
+	<name>cfenv-processor-db2</name>
 	<description>A CfEnvProcessor Implementation for DB2</description>
 
 	<properties>
